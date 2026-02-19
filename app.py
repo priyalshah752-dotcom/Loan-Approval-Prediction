@@ -1,5 +1,20 @@
 import streamlit as st
 import numpy as np
+st.markdown("""
+<style>
+h1, h2, h3, h4 {
+    color: black !important;
+    font-weight: 700;
+}
+
+label {
+    color: black !important;
+    font-weight: 600;
+}
+</style>
+""", unsafe_allow_html=True)
+
+st.title("Loan Approval Prediction")
 
 # PAGE CONFIG
 st.set_page_config(
